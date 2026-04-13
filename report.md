@@ -10,6 +10,7 @@ app/build/reports/spotbugs/main.html (Open in Browser)
 ## Run Instructions
 1. Use a Java Virtual Machine version over 17 (I faced some difficulties doing this due to Java 11 version being installed)
 2. Run the following gradle command to run SpotBugs: ./gradlew clean spotBugsMain (I had to use a varied version of this command to explicitly use the version of JVM installed on my system - explicitly I used this: './gradlew clean spotbugsMain -Dorg.gradle.java.home="/opt/homebrew/opt/openjdk"' The last part needs to be the path your updated JDK is installed)
+3. The more reliable way to run that I have found is by running it from the gradle UI and running the task: spotBugsMain
 3. Upon a successful build, a main.html file will be produced in the following file: app/build/reports/spotbugs
 4. Open this file in the browser
 ## Understanding the Results
