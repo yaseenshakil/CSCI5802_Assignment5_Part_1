@@ -106,6 +106,7 @@ Dodgy Code
 ### Reason for bug
 The function appears to not do anything functionally significant and therefore appears redundant
 ### Bug-Causing Code
+Line 52 of BankAccount.java
 ### Bug analysis
 This bug does not inherently point to a defect. Instead, it highlights a function that does not seem to do anything significant - This in turn could be due to a 
 mistake, old code, or a real defect that went unrealized. In our case, it appears that incrementAge might have been created to increment the age of the account variable instantiated at the class level.
