@@ -45,4 +45,9 @@ public class BankAccount {
     public void setAccountBalance(double accountBalance) {
         this.accountBalance = accountBalance;
     }
+
+    public void incrementAge(){
+        int accountAge = 0;
+        accountAge++;
+    }
 }
